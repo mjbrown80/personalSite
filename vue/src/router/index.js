@@ -1,10 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '../views/Home.vue'
+// import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
 import Register from '../views/Register.vue'
 import store from '../store/index'
+import WelcomePage from '../views/WelcomePage.vue'
+import About from '../views/About.vue'
+import Paintings from '../views/Paintings.vue'
+import Blog from '../views/Blog.vue'
 
 Vue.use(Router)
 
@@ -23,14 +27,38 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home,
+      name: 'WelcomePage',
+      component: WelcomePage,
       meta: {
-        requiresAuth: true
+        requiresAuth: false
       }
     },
     {
-      path: "/login",
+      path: "/about",
+      name: "About",
+      component: About,
+      meta: {
+        requiresAuth: false
+      }
+    },
+    {
+      path: "/paintings",
+      name: "Paintings",
+      component: Paintings,
+      meta: {
+        requiresAuth: false
+      }
+    },
+    {
+      path: "/blog",
+      name: "Blog",
+      component: Blog,
+      meta: {
+        requiresAuth: false
+      }
+    },
+    {
+      path: '/login',
       name: "login",
       component: Login,
       meta: {
