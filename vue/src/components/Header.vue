@@ -1,7 +1,7 @@
-<!-- <template>
-  <div>
+<template>
+  <Header>
     <h1 class="signature-heading">Welcome to Mathew Brown's Studio</h1>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -17,5 +17,4 @@ export default {
     font-size: 4rem;
     text-align: center;
 }
-
-</style> -->
+</style>
