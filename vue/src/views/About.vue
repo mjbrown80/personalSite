@@ -1,7 +1,7 @@
 <template>
-    <div>
-         It's Me!!!!!!
-    </div>
+ <p class="centered-text">    
+    I'm matthew Brown a former artist that is trying to rediscover my love for art!
+ </p>
    
 </template>
 
@@ -12,5 +12,10 @@ export default {
 </script>
 
 <style>
+.centered-text{
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 </style>

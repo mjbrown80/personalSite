@@ -39,7 +39,7 @@ export default {
   gap: 10px;
 }
 #nav button {
-  background-color: #0074d9;
+  background-color: brown;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -48,6 +48,6 @@ export default {
   transition: background-color 0.2s;
 }
 #nav button:hover{
-  background-color: #0056b3;
+  background-color: orange;
 }
 </style>
