@@ -14,8 +14,8 @@ export default {
 }
 </script>
 
-<style scoped>
-.container{
+<style>
+/* .container{
     display: flex;
 }
 .centered-text{
@@ -24,6 +24,6 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
+} */
 
 </style>

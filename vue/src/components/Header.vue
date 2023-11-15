@@ -11,10 +11,10 @@ export default {
 </script>
 
 <style>
-.signature-heading{
+/* .signature-heading{
     color: beige;
     font-family: 'Your-Signature-Font', cursive;
     font-size: 4rem;
     text-align: center;
-}
+} */
 </style>

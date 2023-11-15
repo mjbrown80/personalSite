@@ -30,18 +30,17 @@ export default {
 }
 </script>
 
-<style scoped>
-
-#nav{
+<style>
+/* #nav{
   display: flex;
   /* justify-content: space-between;
   align-items: center; */
-  flex-direction: column; 
+  /* flex-direction: column; 
   align-items: flex-start;
-  margin-right: 20px;
+  margin-right: 20px; */
   /* gap: 10px; */
-}
-#nav button {
+/* } */
+/* #nav button {
   width: 150px;
   background-color: brown;
   color: white;
@@ -52,8 +51,8 @@ export default {
   text-align: center;
   margin-bottom: 10px;
   transition: background-color 0.2s;
-}
-#nav button:hover{
+} */
+/* #nav button:hover{
   background-color: orange;
-}
+} */ 
 </style>

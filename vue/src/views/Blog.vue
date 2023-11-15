@@ -1,6 +1,6 @@
 <template>
     <div class="page-container">
-      <p class="content">
+      <p class="content-page">
         I'm matthew Brown
       </p>
     </div>
@@ -12,13 +12,15 @@ export default {
 }
 </script>
 
-<style scoped>
-.page-container{
+<style>
+/* .page-container{
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 .content{
-    max-width: 600px;
-}
+    /* flex: 1; */
+    /* max-width: 600px;
+} */ 
 
 </style>
