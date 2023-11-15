@@ -1,6 +1,8 @@
-<!-- <template>
+<template>
   <div>
-    <h1 class="signature-heading">Welcome to Mathew Brown's Studio</h1>
+    <div>
+        current works
+    </div>
   </div>
 </template>
 
@@ -11,11 +13,6 @@ export default {
 </script>
 
 <style>
-.signature-heading{
-    color: blue;
-    font-family: 'Your-Signature-Font', cursive;
-    font-size: 4rem;
-    text-align: center;
-}
 
-</style> -->
+
+</style>

@@ -1,7 +1,9 @@
 <template>
-  <p>
+    <div class="page-container">
+      <p class="content">
         I'm matthew Brown
-  </p>
+      </p>
+    </div>
 </template>
 
 <script>
@@ -10,6 +12,13 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.page-container{
+    display: flex;
+    justify-content: center;
+}
+.content{
+    max-width: 600px;
+}
 
 </style>

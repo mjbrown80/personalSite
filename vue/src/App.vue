@@ -30,21 +30,27 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 #nav{
   display: flex;
-  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: center; */
+  flex-direction: column; 
   align-items: flex-start;
-  gap: 10px;
+  margin-right: 20px;
+  /* gap: 10px; */
 }
 #nav button {
+  width: 150px;
   background-color: brown;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 0px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-align: center;
+  margin-bottom: 10px;
   transition: background-color 0.2s;
 }
 #nav button:hover{

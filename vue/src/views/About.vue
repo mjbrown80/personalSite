@@ -1,7 +1,10 @@
 <template>
- <p class="centered-text">    
-    I'm matthew Brown a former artist that is trying to rediscover my love for art!
- </p>
+    <div class="container">
+        <p class="centered-text">    
+         I'm matthew Brown a former artist that is trying to rediscover my love for art!
+        </p>
+    </div>
+ 
    
 </template>
 
@@ -11,11 +14,16 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.container{
+    display: flex;
+}
 .centered-text{
     margin-left: 10px;
-    display: inline-block;
     vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 </style>
