@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div class="home-container">
+    <div class="home-page">
         current works
     </div>
   </div>

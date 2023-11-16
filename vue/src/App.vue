@@ -9,6 +9,9 @@
       <button @click="navigateTo('login')">Login</button>
       <button @click="navigateTo('logout')" v-if="$store.state.token != ''">Logout</button>
     </div>
+    <div id="content">
+
+    </div>
     <router-view />
   </div>
 </template>
