@@ -7,19 +7,24 @@
 
 body {
     display: grid;
-    grid-template-colums: auto 1fr;
+    grid-template-colums: 1fr,2fr;
     background-color: tan;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
   }
+  .painting-container{
+    display: flex;
+    justify-content: center;
+  }
   
-  .container {
+  /* .container {
     max-width: 1200px;
     margin: 0 auto;
-  }
+  } */
   .container{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1f;
     justify-content: center;
   }
   .centered-text{

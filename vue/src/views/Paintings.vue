@@ -1,6 +1,9 @@
 <template>
-  <div class="page-container">
+  <div class="painting-container">
     <h1 class="centered-pics">Paintings</h1>
+    <div class="content-page">
+
+    </div>
   </div>
 </template>
 
